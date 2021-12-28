@@ -1,9 +1,9 @@
 {
-    "name": "symfony-bundles/json-request-bundle",
+    "name": "cod3venom/symfony-json-requests",
     "type": "symfony-bundle",
     "description": "Symfony JsonRequest Bundle",
     "keywords": ["json", "symfony", "bundle", "angular"],
-    "homepage": "https://github.com/symfony-bundles/json-request-bundle",
+    "homepage": "https://github.com/cod3venom/symfony-json-requests",
     "license": "MIT",
     "authors": [{"name": "Dmitry Khaperets", "email": "khaperets@gmail.com"}],
     "autoload": {
