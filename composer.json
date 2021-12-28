@@ -1,3 +1,4 @@
+
 {
     "name": "cod3venom/symfony-json-requests",
     "type": "symfony-bundle",
@@ -5,21 +6,21 @@
     "keywords": ["json", "symfony", "bundle", "angular"],
     "homepage": "https://github.com/cod3venom/symfony-json-requests",
     "license": "MIT",
-    "authors": [{"name": "Dmitry Khaperets", "email": "khaperets@gmail.com"}],
+    "authors": [{"name": "cod3venom", "email": "cod3venom@gmail.com"}],
     "autoload": {
         "psr-4": {
-            "SymfonyBundles\\JsonRequestBundle\\": "src"
+            "SymfonyBundles\\JsonRequestBundle\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "SymfonyBundles\\JsonRequestBundle\\Tests\\": "tests"
+            "SymfonyBundles\\JsonRequestBundle\\Tests\\": "tests/"
         }
     },
     "require": {
         "php": ">=7.4 || ^8.0",
         "ext-json": "*",
-        "symfony/framework-bundle": "6.0.*"
+        "symfony/framework-bundle": "^5.0 || ^6.0"
     },
     "require-dev": {
         "doctrine/annotations": "^1.0",
@@ -27,10 +28,15 @@
         "phpunit/php-code-coverage": "^9.2",
         "phpunit/phpunit": "^9.5",
         "symfony/browser-kit": "^5.2 || ^6.0",
-        "symfony/yaml": "6.0.*"
+        "symfony/yaml": "^5.2 || ^6.0"
     },
     "config": {
         "preferred-install": "dist",
         "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "4.x-dev"
+        }
     }
 }
